@@ -7,7 +7,7 @@ about:
   head: f536ac5
   archived: false
   latestVersion: 7.0.0
-  collectedAt: 2026-09-04T20:06:19Z
+  collectedAt: 2026-09-04T20:35:04Z
 timeline:
   created: 2013-08-13
   lastCommit: 2026-08-07
@@ -81,7 +81,7 @@ total:
   commit: 1387
 ---
 path: /home/runner/.x-repo/github.com/pypa/twine
-collectedAt: 2026-09-04T20:06:20Z
+collectedAt: 2026-09-04T20:35:05Z
 loc:
   Python:
     code: 4909
