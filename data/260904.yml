@@ -1,0 +1,56 @@
+about:
+  description: Utilities for interacting with PyPI
+  license: Apache-2.0
+  homepage: https://twine.readthedocs.io/
+  head: f536ac5
+  archived: false
+  latestVersion: 7.0.0
+  collectedAt: 2026-09-04T05:08:10Z
+timeline:
+  created: 2013-08-13
+  lastCommit: 2026-08-07
+  lastRelease: 2026-07-28
+popularity:
+  star: 1788
+  watcher: 37
+  fork: 335
+  release: 17
+  contributor: 176
+  pullRequest: 173
+  issue: 554
+language:
+  Python: 210799
+totalLine: 210799
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 0
+    mergedPR: 0
+    openPR: 6
+    closedIssue: 0
+    openIssue: 1
+    commit: 1
+  last90d:
+    since: 2026-06-06
+    release: 1
+    mergedPR: 8
+    openPR: 7
+    closedIssue: 0
+    openIssue: 2
+    commit: 9
+  last180d:
+    since: 2026-03-08
+    release: 1
+    mergedPR: 21
+    openPR: 8
+    closedIssue: 4
+    openIssue: 2
+    commit: 21
+  last360d:
+    since: 2025-09-09
+    release: 1
+    mergedPR: 43
+    openPR: 8
+    closedIssue: 6
+    openIssue: 3
+    commit: 42
