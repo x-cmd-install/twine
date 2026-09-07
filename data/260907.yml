@@ -5,7 +5,7 @@ about:
   head: f536ac5
   archived: false
   latestVersion: "7.0.0"
-  collectedAt: 2026-09-07T05:45:36Z
+  collectedAt: 2026-09-07T18:46:01Z
 timeline:
   created: 2013-08-13
   lastCommit: 2026-08-07
@@ -79,7 +79,7 @@ total:
   commit: 1387
 ---
 path: /home/runner/.x-repo/github.com/pypa/twine
-collectedAt: 2026-09-07T05:45:37Z
+collectedAt: 2026-09-07T18:46:02Z
 loc:
   Python:
     code: 4909
@@ -210,7 +210,7 @@ checks:
       - 'Info: all commits (30) are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:45:38+00:00
+  collectedAt: 2026-09-07T18:46:03+00:00
   platform:
     darwin/arm64:
       name:  null
