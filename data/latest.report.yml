@@ -7,7 +7,7 @@ about:
   latestVersion: "7.0.0"
   latestRelease: "7.0.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T05:58:09Z
+  collectedAt: 2026-09-09T20:09:34Z
 timeline:
   created: 2013-08-13
   lastCommit: 2026-08-07
@@ -83,7 +83,7 @@ total:
   commit: 1387
 ---
 path: /home/runner/.x-repo/github.com/pypa/twine
-collectedAt: 2026-09-09T05:58:10Z
+collectedAt: 2026-09-09T20:09:36Z
 loc:
   Python:
     code: 4909
