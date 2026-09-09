@@ -213,4 +213,3 @@ checks:
       - 'Info: SAST configuration detected: CodeQL'
       - 'Info: all commits (30) are checked with a SAST tool'
 ---
-{"id":361160909,"author":{"login":"woodruffw","id":3059210,"node_id":"MDQ6VXNlcjMwNTkyMTA=","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOALhpM84VhuDN","tag_name":"7.0.0","target_commitish":"main","name":"7.0.0","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-07-27T15:57:49Z","updated_at":"2026-07-28T14:43:08Z","published_at":"2026-07-28T14:43:08Z","assets":[],"body":"","reactions":{"total_count":8,"+1":2,"-1":0,"laugh":0,"hooray":2,"confused":0,"heart":3,"rocket":0,"eyes":1}}
