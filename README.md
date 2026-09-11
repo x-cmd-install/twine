@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,788 · **Forks**: 339 · **Open issues**: 555 · **Contributors**: 176
+- **Stars**: 1,788 · **Forks**: 340 · **Open issues**: 555 · **Contributors**: 176
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 0 | 7 | 0 | 2 | 0 |
-| last60d | 2026-07-12 | 1 | 7 | 8 | 0 | 3 | 9 |
-| 90d | 2026-06-12 | 1 | 8 | 8 | 0 | 3 | 9 |
-| last180d | 2026-03-14 | 1 | 20 | 9 | 4 | 3 | 19 |
-| 360d | 2025-09-15 | 1 | 42 | 9 | 6 | 4 | 42 |
-| last720d | 2024-09-20 | 5 | 111 | 15 | 32 | 8 | 151 |
+| 30d | 2026-08-12 | 0 | 0 | 7 | 0 | 2 | 0 |
+| last60d | 2026-07-13 | 1 | 7 | 8 | 0 | 3 | 9 |
+| 90d | 2026-06-13 | 1 | 8 | 8 | 0 | 3 | 9 |
+| last180d | 2026-03-15 | 1 | 19 | 9 | 4 | 3 | 19 |
+| 360d | 2025-09-16 | 1 | 42 | 9 | 6 | 4 | 42 |
+| last720d | 2024-09-21 | 5 | 110 | 15 | 32 | 8 | 151 |
 
 ## Distribution status
 
@@ -91,4 +91,4 @@ Install metadata for twine lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:41:46Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T05:49:58Z._
