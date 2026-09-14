@@ -57,30 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 7 | 0 | 2 | 0 |
-| last60d | 2026-07-15 | 1 | 7 | 8 | 0 | 3 | 9 |
-| 90d | 2026-06-15 | 1 | 8 | 8 | 0 | 3 | 9 |
-| last180d | 2026-03-17 | 1 | 19 | 9 | 3 | 3 | 19 |
-| 360d | 2025-09-18 | 1 | 42 | 9 | 6 | 4 | 42 |
-| last720d | 2024-09-23 | 5 | 110 | 15 | 32 | 8 | 151 |
-
-## Distribution status
-
-Reported by **125** distros on [repology.org](https://repology.org/project/twine). **20** are ✅ on the latest upstream release, **98** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `6.2.0` | ⚠️ outdated |
-| Debian 14 | `6.2.0` | ⚠️ outdated |
-| Debian 13 | `6.1.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `6.2.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `5.0.0` | ⚠️ outdated |
-| Arch | `7.0.0` | ✅ latest |
-| Homebrew | `7.0.0` | ✅ latest |
-| Fedora rawhide | `7.0.0` | ✅ latest |
-| Nix unstable | `6.2.0` | ⚠️ outdated |
-| Alpine edge | `6.1.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `6.2.0` | ⚠️ outdated |
+| 30d | 2026-08-15 | 0 | 0 | 7 | 0 | 2 | 0 |
+| last60d | 2026-07-16 | 1 | 7 | 8 | 0 | 3 | 8 |
+| 90d | 2026-06-16 | 1 | 8 | 8 | 0 | 3 | 9 |
+| last180d | 2026-03-18 | 1 | 18 | 9 | 3 | 3 | 18 |
+| 360d | 2025-09-19 | 1 | 42 | 9 | 6 | 4 | 42 |
+| last720d | 2024-09-24 | 5 | 110 | 15 | 32 | 8 | 151 |
 
 ## Improve this data
 
@@ -91,4 +73,4 @@ Install metadata for twine lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T06:13:40Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:11:57Z._
