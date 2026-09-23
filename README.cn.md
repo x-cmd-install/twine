@@ -4,7 +4,7 @@
 
 Utilities for interacting with PyPI
 
-[![x-cmd/install — twine Code Quality Monitoring Repo Card](https://repo.x-cmd.io/twine.svg?lang=zh)](https://x-cmd.com/install/twine)
+[![x-cmd/install — twine Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/twine.svg?lang=zh)](https://x-cmd.com/install/twine)
 
 ## 安装
 
@@ -47,7 +47,7 @@ x install twine
 
 ## 流行度
 
-- **Star**: 1,789 · **Fork**: 340 · **开放 issue**: 555 · **贡献者**: 176
+- **Star**: 1,789 · **Fork**: 342 · **开放 issue**: 555 · **贡献者**: 176
 
 ## 累计统计
 
@@ -57,12 +57,12 @@ x install twine
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 5 | 0 | 2 | 0 |
-| last60d | 2026-07-24 | 1 | 7 | 8 | 0 | 3 | 2 |
-| 90d | 2026-06-24 | 1 | 7 | 8 | 0 | 3 | 9 |
-| last180d | 2026-03-26 | 1 | 18 | 9 | 2 | 3 | 18 |
-| 360d | 2025-09-27 | 1 | 42 | 9 | 6 | 4 | 42 |
-| last720d | 2024-10-02 | 5 | 107 | 15 | 32 | 7 | 149 |
+| 30d | 2026-08-24 | 0 | 0 | 5 | 0 | 2 | 0 |
+| last60d | 2026-07-25 | 1 | 7 | 8 | 0 | 3 | 2 |
+| 90d | 2026-06-25 | 1 | 7 | 8 | 0 | 3 | 9 |
+| last180d | 2026-03-27 | 1 | 18 | 9 | 2 | 3 | 18 |
+| 360d | 2025-09-28 | 1 | 42 | 9 | 6 | 4 | 42 |
+| last720d | 2024-10-03 | 5 | 107 | 15 | 32 | 7 | 149 |
 
 ## 改进这些数据
 
@@ -73,4 +73,4 @@ twine 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:08:33Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T06:17:00Z._
