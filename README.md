@@ -26,7 +26,7 @@ Total: **6,120** lines of code across **55** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **7.8 / 10**
+Overall score: **7.7 / 10**
 
 Lowest-scoring checks:
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,789 · **Forks**: 343 · **Open issues**: 555 · **Contributors**: 176
+- **Stars**: 1,790 · **Forks**: 343 · **Open issues**: 555 · **Contributors**: 176
 
 ## Totals (cumulative)
 
-- **Releases**: 17 · **Merged PRs**: 628 · **Open PRs**: 15 · **Closed issues**: 514 · **Open issues**: 41 · **Commits**: 1387
+- **Releases**: 17 · **Merged PRs**: 628 · **Open PRs**: 16 · **Closed issues**: 514 · **Open issues**: 41 · **Commits**: 1387
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 0 | 0 | 4 | 0 | 2 | 0 |
-| last60d | 2026-08-01 | 0 | 1 | 7 | 0 | 2 | 1 |
-| 90d | 2026-07-02 | 1 | 7 | 8 | 0 | 3 | 9 |
-| last180d | 2026-04-03 | 1 | 17 | 9 | 2 | 3 | 17 |
-| 360d | 2025-10-05 | 1 | 42 | 9 | 6 | 4 | 41 |
-| last720d | 2024-10-10 | 5 | 100 | 15 | 30 | 7 | 138 |
+| 30d | 2026-09-01 | 0 | 0 | 5 | 0 | 2 | 0 |
+| last60d | 2026-08-02 | 0 | 1 | 8 | 0 | 2 | 1 |
+| 90d | 2026-07-03 | 1 | 7 | 9 | 0 | 3 | 9 |
+| last180d | 2026-04-04 | 1 | 17 | 10 | 2 | 3 | 17 |
+| 360d | 2025-10-06 | 1 | 42 | 10 | 6 | 4 | 41 |
+| last720d | 2024-10-11 | 5 | 100 | 16 | 29 | 7 | 137 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for twine lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T06:33:17Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T06:59:55Z._
