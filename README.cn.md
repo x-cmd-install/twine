@@ -47,7 +47,7 @@ x install twine
 
 ## 流行度
 
-- **Star**: 1,791 · **Fork**: 347 · **开放 issue**: 557 · **贡献者**: 176
+- **Star**: 1,792 · **Fork**: 347 · **开放 issue**: 557 · **贡献者**: 176
 
 ## 累计统计
 
@@ -57,12 +57,30 @@ x install twine
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 6 | 2 | 0 | 0 |
-| last60d | 2026-08-23 | 0 | 0 | 8 | 2 | 2 | 0 |
-| 90d | 2026-07-24 | 1 | 7 | 10 | 2 | 3 | 8 |
-| last180d | 2026-04-25 | 1 | 11 | 11 | 3 | 3 | 12 |
-| 360d | 2025-10-27 | 1 | 39 | 11 | 8 | 4 | 39 |
-| last720d | 2024-11-01 | 5 | 95 | 17 | 31 | 7 | 130 |
+| 30d | 2026-09-23 | 0 | 0 | 6 | 2 | 0 | 0 |
+| last60d | 2026-08-24 | 0 | 0 | 8 | 2 | 2 | 0 |
+| 90d | 2026-07-25 | 1 | 7 | 10 | 2 | 3 | 8 |
+| last180d | 2026-04-26 | 1 | 11 | 11 | 3 | 3 | 12 |
+| 360d | 2025-10-28 | 1 | 39 | 11 | 8 | 4 | 39 |
+| last720d | 2024-11-02 | 5 | 95 | 17 | 31 | 7 | 130 |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/twine) 上共有 **122** 个发行版报告此项目。**27** 个 ✅ 已是最新上游版本，**88** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `7.0.0` | ✅ latest |
+| Debian 14 | `7.0.0` | ✅ latest |
+| Debian 13 | `6.1.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `6.2.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `5.0.0` | ⚠️ outdated |
+| Arch | `7.0.0` | ✅ latest |
+| Homebrew | `7.0.0` | ✅ latest |
+| Fedora rawhide | `7.0.0` | ✅ latest |
+| Nix unstable | `6.2.0` | ⚠️ outdated |
+| Alpine edge | `6.1.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `6.2.0` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -73,4 +91,4 @@ twine 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T05:42:22Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T05:46:00Z._

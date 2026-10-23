@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,791 · **Forks**: 347 · **Open issues**: 557 · **Contributors**: 176
+- **Stars**: 1,792 · **Forks**: 347 · **Open issues**: 557 · **Contributors**: 176
 
 ## Totals (cumulative)
 
@@ -57,12 +57,30 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 6 | 2 | 0 | 0 |
-| last60d | 2026-08-23 | 0 | 0 | 8 | 2 | 2 | 0 |
-| 90d | 2026-07-24 | 1 | 7 | 10 | 2 | 3 | 8 |
-| last180d | 2026-04-25 | 1 | 11 | 11 | 3 | 3 | 12 |
-| 360d | 2025-10-27 | 1 | 39 | 11 | 8 | 4 | 39 |
-| last720d | 2024-11-01 | 5 | 95 | 17 | 31 | 7 | 130 |
+| 30d | 2026-09-23 | 0 | 0 | 6 | 2 | 0 | 0 |
+| last60d | 2026-08-24 | 0 | 0 | 8 | 2 | 2 | 0 |
+| 90d | 2026-07-25 | 1 | 7 | 10 | 2 | 3 | 8 |
+| last180d | 2026-04-26 | 1 | 11 | 11 | 3 | 3 | 12 |
+| 360d | 2025-10-28 | 1 | 39 | 11 | 8 | 4 | 39 |
+| last720d | 2024-11-02 | 5 | 95 | 17 | 31 | 7 | 130 |
+
+## Distribution status
+
+Reported by **122** distros on [repology.org](https://repology.org/project/twine). **27** are ✅ on the latest upstream release, **88** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `7.0.0` | ✅ latest |
+| Debian 14 | `7.0.0` | ✅ latest |
+| Debian 13 | `6.1.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `6.2.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `5.0.0` | ⚠️ outdated |
+| Arch | `7.0.0` | ✅ latest |
+| Homebrew | `7.0.0` | ✅ latest |
+| Fedora rawhide | `7.0.0` | ✅ latest |
+| Nix unstable | `6.2.0` | ⚠️ outdated |
+| Alpine edge | `6.1.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `6.2.0` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -73,4 +91,4 @@ Install metadata for twine lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:42:21Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:46:00Z._
