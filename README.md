@@ -57,16 +57,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 0 | 2 | 1 | 0 | 0 |
-| last60d | 2026-09-09 | 0 | 0 | 7 | 2 | 0 | 0 |
-| 90d | 2026-08-10 | 0 | 0 | 8 | 2 | 2 | 0 |
-| last180d | 2026-05-12 | 1 | 9 | 9 | 3 | 3 | 9 |
-| 360d | 2025-11-13 | 1 | 38 | 10 | 8 | 4 | 38 |
-| last720d | 2024-11-18 | 5 | 94 | 16 | 28 | 7 | 130 |
+| 30d | 2026-10-11 | 0 | 0 | 2 | 1 | 0 | 0 |
+| last60d | 2026-09-11 | 0 | 0 | 6 | 2 | 0 | 0 |
+| 90d | 2026-08-12 | 0 | 0 | 8 | 2 | 2 | 0 |
+| last180d | 2026-05-14 | 1 | 9 | 9 | 3 | 3 | 9 |
+| 360d | 2025-11-15 | 1 | 38 | 10 | 8 | 4 | 36 |
+| last720d | 2024-11-20 | 5 | 94 | 16 | 27 | 7 | 130 |
 
 ## Distribution status
 
-Reported by **123** distros on [repology.org](https://repology.org/project/twine). **27** are ✅ on the latest upstream release, **89** are ⚠️ on an older version.
+Reported by **124** distros on [repology.org](https://repology.org/project/twine). **30** are ✅ on the latest upstream release, **87** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -79,7 +79,7 @@ Reported by **123** distros on [repology.org](https://repology.org/project/twine
 | Homebrew | `7.0.0` | ✅ latest |
 | Fedora rawhide | `7.0.0` | ✅ latest |
 | Nix unstable | `6.2.0` | ⚠️ outdated |
-| Alpine edge | `6.1.0` | ⚠️ outdated |
+| Alpine edge | `7.0.0` | ✅ latest |
 | openSUSE Tumbleweed | `6.2.0` | ⚠️ outdated |
 
 ## Improve this data
@@ -91,4 +91,4 @@ Install metadata for twine lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T07:13:30Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T08:34:10Z._
