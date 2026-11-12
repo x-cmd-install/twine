@@ -14,11 +14,11 @@ x install twine
 
 ## Code insight
 
-Total: **6,120** lines of code across **55** files in the top 5 languages.
+Total: **6,116** lines of code across **55** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 4,909 | 691 | 1,196 | 33 |
+| Python | 4,905 | 689 | 1,195 | 33 |
 | ReStructuredText | 995 | 0 | 484 | 17 |
 | Ini | 149 | 14 | 18 | 3 |
 | Toml | 67 | 2 | 9 | 1 |
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `7.0.0` (2026-07-28)
-- **Last commit**: 2026-08-07
+- **Last commit**: 2026-11-11
 
 ## Popularity
 
-- **Stars**: 1,792 · **Forks**: 349 · **Open issues**: 557 · **Contributors**: 176
+- **Stars**: 1,792 · **Forks**: 350 · **Open issues**: 557 · **Contributors**: 176
 
 ## Totals (cumulative)
 
-- **Releases**: 17 · **Merged PRs**: 628 · **Open PRs**: 16 · **Closed issues**: 516 · **Open issues**: 41 · **Commits**: 1387
+- **Releases**: 17 · **Merged PRs**: 629 · **Open PRs**: 14 · **Closed issues**: 516 · **Open issues**: 41 · **Commits**: 1388
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 0 | 3 | 1 | 0 | 0 |
-| last60d | 2026-09-12 | 0 | 0 | 7 | 2 | 0 | 0 |
-| 90d | 2026-08-13 | 0 | 0 | 8 | 2 | 2 | 0 |
-| last180d | 2026-05-15 | 1 | 9 | 9 | 3 | 3 | 9 |
-| 360d | 2025-11-16 | 1 | 38 | 10 | 7 | 4 | 36 |
-| last720d | 2024-11-21 | 5 | 93 | 16 | 27 | 7 | 130 |
+| 30d | 2026-10-13 | 0 | 1 | 1 | 1 | 0 | 1 |
+| last60d | 2026-09-13 | 0 | 1 | 5 | 2 | 0 | 1 |
+| 90d | 2026-08-14 | 0 | 1 | 6 | 2 | 2 | 1 |
+| last180d | 2026-05-16 | 1 | 10 | 7 | 3 | 3 | 10 |
+| 360d | 2025-11-17 | 1 | 37 | 8 | 7 | 4 | 37 |
+| last720d | 2024-11-22 | 5 | 93 | 14 | 27 | 7 | 131 |
 
 ## Distribution status
 
@@ -91,4 +91,4 @@ Install metadata for twine lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T07:32:07Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T08:42:12Z._
