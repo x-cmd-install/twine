@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,793 · **Forks**: 444 · **Open issues**: 557 · **Contributors**: 176
+- **Stars**: 1,793 · **Forks**: 442 · **Open issues**: 557 · **Contributors**: 176
 
 ## Totals (cumulative)
 
@@ -57,16 +57,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 1 | 0 | 0 | 0 | 1 |
-| last60d | 2026-09-21 | 0 | 1 | 5 | 2 | 0 | 1 |
-| 90d | 2026-08-22 | 0 | 1 | 6 | 2 | 2 | 1 |
-| last180d | 2026-05-24 | 1 | 10 | 7 | 3 | 3 | 10 |
-| 360d | 2025-11-25 | 1 | 37 | 8 | 7 | 3 | 37 |
-| last720d | 2024-11-30 | 5 | 88 | 14 | 25 | 7 | 127 |
+| 30d | 2026-10-22 | 0 | 1 | 0 | 0 | 0 | 1 |
+| last60d | 2026-09-22 | 0 | 1 | 5 | 2 | 0 | 1 |
+| 90d | 2026-08-23 | 0 | 1 | 6 | 2 | 2 | 1 |
+| last180d | 2026-05-25 | 1 | 10 | 7 | 3 | 3 | 10 |
+| 360d | 2025-11-26 | 1 | 37 | 8 | 7 | 3 | 37 |
+| last720d | 2024-12-01 | 4 | 87 | 14 | 25 | 7 | 118 |
 
 ## Distribution status
 
-Reported by **123** distros on [repology.org](https://repology.org/project/twine). **31** are ✅ on the latest upstream release, **85** are ⚠️ on an older version.
+Reported by **122** distros on [repology.org](https://repology.org/project/twine). **31** are ✅ on the latest upstream release, **84** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -76,7 +76,7 @@ Reported by **123** distros on [repology.org](https://repology.org/project/twine
 | Ubuntu 26.04 LTS | `6.2.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `5.0.0` | ⚠️ outdated |
 | Arch | `7.0.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `7.0.0` | ✅ latest |
 | Fedora rawhide | `7.0.0` | ✅ latest |
 | Nix unstable | `6.2.0` | ⚠️ outdated |
 | Alpine edge | `7.0.0` | ✅ latest |
@@ -91,4 +91,4 @@ Install metadata for twine lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T10:25:27Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T08:47:36Z._
