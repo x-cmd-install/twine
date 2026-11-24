@@ -24,16 +24,6 @@ x install twine
 | Toml | 67 | 2 | 9 | 1 |
 | Text | 0 | 5 | 0 | 1 |
 
-## OpenSSF Scorecard 评分
-
-总评分: **7.3 / 10**
-
-评分最低的几项:
-
-- **Pinned-Dependencies** (4/10) — dependency not pinned by hash detected -- score normalized to 4
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Fuzzing** (0/10) — project is not fuzzed
-
 ## 源代码
 
 - **上游仓库**: <https://github.com/pypa/twine>
@@ -47,7 +37,7 @@ x install twine
 
 ## 流行度
 
-- **Star**: 1,793 · **Fork**: 442 · **开放 issue**: 557 · **贡献者**: 176
+- **Star**: 1,794 · **Fork**: 442 · **开放 issue**: 557 · **贡献者**: 176
 
 ## 累计统计
 
@@ -57,12 +47,12 @@ x install twine
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 1 | 0 | 0 | 0 | 1 |
-| last60d | 2026-09-24 | 0 | 1 | 5 | 2 | 0 | 1 |
-| 90d | 2026-08-25 | 0 | 1 | 6 | 2 | 2 | 1 |
-| last180d | 2026-05-27 | 1 | 10 | 7 | 3 | 3 | 10 |
-| 360d | 2025-11-28 | 1 | 36 | 8 | 7 | 3 | 35 |
-| last720d | 2024-12-03 | 3 | 85 | 14 | 24 | 7 | 116 |
+| 30d | 2026-10-25 | 0 | 1 | 0 | 0 | 0 | 1 |
+| last60d | 2026-09-25 | 0 | 1 | 5 | 2 | 0 | 1 |
+| 90d | 2026-08-26 | 0 | 1 | 6 | 2 | 2 | 1 |
+| last180d | 2026-05-28 | 1 | 10 | 7 | 3 | 3 | 10 |
+| 360d | 2025-11-29 | 1 | 36 | 8 | 7 | 3 | 35 |
+| last720d | 2024-12-04 | 3 | 83 | 14 | 23 | 7 | 115 |
 
 ## 发行版状态
 
@@ -91,4 +81,4 @@ twine 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261123.yml` · 2026-11-23T08:41:16Z._
+_数据快照: `data/card/261124.yml` · 2026-11-24T11:00:02Z._
