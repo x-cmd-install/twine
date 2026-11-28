@@ -1,11 +1,26 @@
-- repo: spack
-  srcname: py-twine
-  visiblename: py-twine
+- repo: gnuguix
+  srcname: python-twine
+  binname: python-twine
+  visiblename: python-twine
   version: 6.2.0
   origversion: null
   status: outdated
+  summary: Collection of utilities for interacting with PyPI
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: twine
+  binnames:
+    - twine
+  visiblename: twine
+  version: 3.3.0
+  origversion: 3.3.0-1
+  status: outdated
   maintainers:
-    - fallback-mnt-spack@repology
+    - team+python@tracker.debian.org
+    - stefanor@debian.org
+    - zygmunt.krynicki@canonical.com
+  categories:
+    - utils
 - repo: alpine_3_17
   subrepo: community
   srcname: twine
@@ -123,71 +138,73 @@
     - bribbers@disroot.org
   licenses:
     - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: twine
-  binname: twine
+  binnames:
+    - twine
   visiblename: twine
   version: 6.1.0
-  origversion: 6.1.0-r0
+  origversion: 6.1.0-1
   status: outdated
-  summary: Collection of utilities for publishing packages on PyPI
   maintainers:
-    - naomi.renniewaldock@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_22
-  subrepo: community
-  srcname: twine
-  binname: twine-pyc
-  visiblename: twine-pyc
-  version: 6.1.0
-  origversion: 6.1.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for twine
-  maintainers:
-    - naomi.renniewaldock@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: twine
-  binname: twine
-  visiblename: twine
-  version: 6.1.0
-  origversion: 6.1.0-r0
-  status: outdated
-  summary: Collection of utilities for publishing packages on PyPI
-  maintainers:
-    - naomi.renniewaldock@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: alpine_3_23
-  subrepo: community
-  srcname: twine
-  binname: twine-pyc
-  visiblename: twine-pyc
-  version: 6.1.0
-  origversion: 6.1.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for twine
-  maintainers:
-    - naomi.renniewaldock@gmail.com
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_24_05
-  srcname: python312Packages.twine
-  visiblename: python3.12-twine
-  version: 5.0.0
-  origversion: null
-  status: outdated
-  summary: Collection of utilities for interacting with PyPI
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - Apache-2.0
+    - team+python@tracker.debian.org
+    - stefanor@debian.org
+    - zygmunt.krynicki@canonical.com
   categories:
-    - python312Packages
+    - utils
+- repo: alpine_3_22
+  subrepo: community
+  srcname: twine
+  binname: twine
+  visiblename: twine
+  version: 6.1.0
+  origversion: 6.1.0-r0
+  status: outdated
+  summary: Collection of utilities for publishing packages on PyPI
+  maintainers:
+    - naomi.renniewaldock@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_22
+  subrepo: community
+  srcname: twine
+  binname: twine-pyc
+  visiblename: twine-pyc
+  version: 6.1.0
+  origversion: 6.1.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for twine
+  maintainers:
+    - naomi.renniewaldock@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: twine
+  binname: twine
+  visiblename: twine
+  version: 6.1.0
+  origversion: 6.1.0-r0
+  status: outdated
+  summary: Collection of utilities for publishing packages on PyPI
+  maintainers:
+    - naomi.renniewaldock@gmail.com
+  licenses:
+    - Apache-2.0
+- repo: alpine_3_23
+  subrepo: community
+  srcname: twine
+  binname: twine-pyc
+  visiblename: twine-pyc
+  version: 6.1.0
+  origversion: 6.1.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for twine
+  maintainers:
+    - naomi.renniewaldock@gmail.com
+  licenses:
+    - Apache-2.0
 - repo: alpine_3_24
   subrepo: community
   srcname: twine
@@ -498,20 +515,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: release
-  srcname: python-twine
-  binnames:
-    - twine
-  visiblename: python-twine
-  version: 5.0.0
-  origversion: 5.0.0-4.fc41
-  status: legacy
-  summary: Collection of utilities for interacting with PyPI
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: updates
   srcname: python-twine
   binnames:
@@ -523,6 +526,20 @@
   summary: Collection of utilities for interacting with PyPI
   licenses:
     - Apache-2.0
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: python-twine
+  binnames:
+    - twine
+  visiblename: python-twine
+  version: 5.0.0
+  origversion: 5.0.0-4.fc41
+  status: legacy
+  summary: Collection of utilities for interacting with PyPI
+  licenses:
+    - ASL 2.0
   categories:
     - Unspecified
 - repo: fedora_42
@@ -620,14 +637,6 @@
     - Apache-2.0
   categories:
     - dev-python
-- repo: gnuguix
-  srcname: python-twine
-  binname: python-twine
-  visiblename: python-twine
-  version: 6.2.0
-  origversion: null
-  status: outdated
-  summary: Collection of utilities for interacting with PyPI
 - repo: homebrew
   srcname: twine
   visiblename: twine
@@ -786,6 +795,14 @@
   summary: Collection of utilities for interacting with PyPI
   licenses:
     - Apache-2.0
+- repo: pypi
+  srcname: twine
+  binname: twine
+  visiblename: twine
+  version: 7.0.0
+  origversion: null
+  status: newest
+  summary: Collection of utilities for publishing packages on PyPI
 - repo: msys2_clang64
   srcname: mingw-w64-twine
   binname: mingw-w64-clang-x86_64-twine
@@ -817,6 +834,19 @@
   licenses:
     - Apache-2.0
 - repo: nix_stable_24_05
+  srcname: python311Packages.twine
+  visiblename: python3.11-twine
+  version: 5.0.0
+  origversion: null
+  status: outdated
+  summary: Collection of utilities for interacting with PyPI
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
+  categories:
+    - python311Packages
+- repo: nix_stable_24_05
   srcname: twine
   visiblename: twine
   version: 5.0.0
@@ -828,8 +858,8 @@
   licenses:
     - Apache-2.0
 - repo: nix_stable_24_05
-  srcname: python311Packages.twine
-  visiblename: python3.11-twine
+  srcname: python312Packages.twine
+  visiblename: python3.12-twine
   version: 5.0.0
   origversion: null
   status: outdated
@@ -839,31 +869,7 @@
   licenses:
     - Apache-2.0
   categories:
-    - python311Packages
-- repo: nix_stable_24_11
-  srcname: python312Packages.twine
-  visiblename: python3.12-twine
-  version: 5.1.1
-  origversion: null
-  status: outdated
-  summary: Collection of utilities for interacting with PyPI
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - Apache-2.0
-  categories:
     - python312Packages
-- repo: nix_stable_24_11
-  srcname: twine
-  visiblename: twine
-  version: 5.1.1
-  origversion: null
-  status: outdated
-  summary: Collection of utilities for interacting with PyPI
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - Apache-2.0
 - repo: nix_stable_24_11
   srcname: python311Packages.twine
   visiblename: python3.11-twine
@@ -877,10 +883,10 @@
     - Apache-2.0
   categories:
     - python311Packages
-- repo: nix_stable_25_05
+- repo: nix_stable_24_11
   srcname: twine
   visiblename: twine
-  version: 6.1.0
+  version: 5.1.1
   origversion: null
   status: outdated
   summary: Collection of utilities for interacting with PyPI
@@ -888,6 +894,19 @@
     - fallback-mnt-nix@repology
   licenses:
     - Apache-2.0
+- repo: nix_stable_24_11
+  srcname: python312Packages.twine
+  visiblename: python3.12-twine
+  version: 5.1.1
+  origversion: null
+  status: outdated
+  summary: Collection of utilities for interacting with PyPI
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
+  categories:
+    - python312Packages
 - repo: nix_stable_25_05
   srcname: python312Packages.twine
   visiblename: python3.12-twine
@@ -914,6 +933,28 @@
     - Apache-2.0
   categories:
     - python313Packages
+- repo: nix_stable_25_05
+  srcname: twine
+  visiblename: twine
+  version: 6.1.0
+  origversion: null
+  status: outdated
+  summary: Collection of utilities for interacting with PyPI
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_11
+  srcname: twine
+  visiblename: twine
+  version: 6.1.0
+  origversion: null
+  status: outdated
+  summary: Collection of utilities for interacting with PyPI
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
 - repo: nix_stable_25_11
   srcname: python312Packages.twine
   visiblename: python3.12-twine
@@ -928,17 +969,6 @@
   categories:
     - python312Packages
 - repo: nix_stable_25_11
-  srcname: twine
-  visiblename: twine
-  version: 6.1.0
-  origversion: null
-  status: outdated
-  summary: Collection of utilities for interacting with PyPI
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_25_11
   srcname: python313Packages.twine
   visiblename: python3.13-twine
   version: 6.1.0
@@ -951,6 +981,21 @@
     - Apache-2.0
   categories:
     - python313Packages
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: twine
+  binnames:
+    - twine
+  visiblename: twine
+  version: 4.0.2
+  origversion: 4.0.2-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - stefanor@debian.org
+    - zygmunt.krynicki@canonical.com
+  categories:
+    - misc
 - repo: nix_stable_26_05
   srcname: twine
   visiblename: twine
@@ -1000,6 +1045,17 @@
   licenses:
     - GPL-3.0-only
 - repo: nix_unstable
+  srcname: twine
+  visiblename: twine
+  version: 6.2.0
+  origversion: null
+  status: outdated
+  summary: Collection of utilities for interacting with PyPI
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
+- repo: nix_unstable
   srcname: python314Packages.twine
   visiblename: twine
   version: 6.2.0
@@ -1025,17 +1081,6 @@
     - Apache-2.0
   categories:
     - python313Packages
-- repo: nix_unstable
-  srcname: twine
-  visiblename: twine
-  version: 6.2.0
-  origversion: null
-  status: outdated
-  summary: Collection of utilities for interacting with PyPI
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - Apache-2.0
 - repo: nix_unstable
   srcname: twinejs
   visiblename: twine
@@ -1085,6 +1130,21 @@
     - GPL
   categories:
     - Development/Python
+- repo: raspbian_stable
+  subrepo: main
+  srcname: twine
+  binnames:
+    - twine
+  visiblename: twine
+  version: 6.1.0
+  origversion: 6.1.0-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - stefanor@debian.org
+    - zygmunt.krynicki@canonical.com
+  categories:
+    - misc
 - repo: openmandriva_rolling
   subrepo: main/release
   srcname: python-twine
@@ -1278,90 +1338,6 @@
   version: 6.2.0
   origversion: 6.2.0-1
   status: outdated
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: twine
-  binnames:
-    - twine
-  visiblename: twine
-  version: 1.13.0
-  origversion: 1.13.0-1
-  status: outdated
-  maintainers:
-    - python-apps-team@lists.alioth.debian.org
-    - barry@debian.org
-    - stefanor@debian.org
-    - zygmunt.krynicki@canonical.com
-  categories:
-    - utils
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: twine
-  binnames:
-    - twine
-  visiblename: twine
-  version: 3.3.0
-  origversion: 3.3.0-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - stefanor@debian.org
-    - zygmunt.krynicki@canonical.com
-  categories:
-    - utils
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: twine
-  binnames:
-    - twine
-  visiblename: twine
-  version: 6.1.0
-  origversion: 6.1.0-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - stefanor@debian.org
-    - zygmunt.krynicki@canonical.com
-  categories:
-    - utils
-- repo: pypi
-  srcname: twine
-  binname: twine
-  visiblename: twine
-  version: 7.0.0
-  origversion: null
-  status: newest
-  summary: Collection of utilities for publishing packages on PyPI
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: twine
-  binnames:
-    - twine
-  visiblename: twine
-  version: 4.0.2
-  origversion: 4.0.2-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - stefanor@debian.org
-    - zygmunt.krynicki@canonical.com
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: twine
-  binnames:
-    - twine
-  visiblename: twine
-  version: 6.1.0
-  origversion: 6.1.0-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - stefanor@debian.org
-    - zygmunt.krynicki@canonical.com
-  categories:
-    - misc
 - repo: raspbian_testing
   subrepo: main
   srcname: twine
@@ -1419,6 +1395,14 @@
     - dslackw@gmail.com
   categories:
     - network
+- repo: spack
+  srcname: py-twine
+  visiblename: py-twine
+  version: 6.2.0
+  origversion: null
+  status: outdated
+  maintainers:
+    - fallback-mnt-spack@repology
 - repo: ubuntu_14_04_backports
   subrepo: trusty-backports/universe
   srcname: twine
